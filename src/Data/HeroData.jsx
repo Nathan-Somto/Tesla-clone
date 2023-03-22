@@ -2,10 +2,10 @@ import dollar from '../../assets/dollar.svg';
 import solarPanel from '../../assets/solar-panel.svg';
 import m3p from '../../../assets/m3-p.jpg';
 import msp from '../../../assets/ms-p.webp';
-import srStorm from '../../../assets/sr-storm.png';
+import srStormp from '../../../assets/sr-storm.png';
 import mxp from '../../../assets/mx.jpg';
 import myp from '../../../assets/my-p.jpg';
-import solarPanel from '../../../assets/solar-panel.jpg';
+import solarPanelp from '../../../assets/solar-panel.jpg';
 import React from 'react';
 const HeroData ={
     'model 3':[
@@ -35,7 +35,7 @@ const HeroData ={
             heading:'Solar Roof',
             para:'',
             underline: false,
-            src:srStorm,
+            src:srStormp,
             topStats:[ React.createElement('img', { src: solarPanel, alt: 'solar Panel' }), '25-Year','24/7'],
             btmStats:['Beautiful \n Solar','Tile\nWarranty','Outage\nProtection'],
             Cta:[{text:'Order now',style:'btn-white-outline'}]
@@ -70,7 +70,7 @@ const HeroData ={
             para:'',
             underline:false,
             dark:true,
-            src:solarPanel,
+            src:solarPanelp,
             topStats:[ React.createElement('img', { src: solarPanel, alt: 'solar Panel' }),
             React.createElement('img', { src: dollar, alt: 'dollar sign' }),'24/7'],
             btmStats:['convert sunlight to energy', 'guaranteed lowest price for solar', 'Energy monitoring']
