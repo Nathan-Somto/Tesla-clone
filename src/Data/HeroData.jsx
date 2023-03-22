@@ -1,11 +1,11 @@
 import dollar from '../../assets/dollar.svg';
 import solarPanel from '../../assets/solar-panel.svg';
-import m3p from '../../../assets/m3-p.jpg';
-import msp from '../../../assets/ms-p.webp';
-import srStormp from '../../../assets/sr-storm.png';
-import mxp from '../../../assets/mx.jpg';
-import myp from '../../../assets/my-p.jpg';
-import solarPanelp from '../../../assets/solar-panel.jpg';
+import m3p from '../../assets/m3-p.jpg';
+import msp from '../../assets/ms-p.webp';
+import srStormp from '../../assets/sr-storm.png';
+import mxp from '../../assets/mx.jpg';
+import myp from '../../assets/my-p.jpg';
+import solarPanelp from '../../assets/solar-panel.jpg';
 import React from 'react';
 const HeroData ={
     'model 3':[

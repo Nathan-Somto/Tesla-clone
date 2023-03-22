@@ -4,7 +4,7 @@ import NavBar from '../../components/Navbar';
 import Section from '../../components/Section';
 import Footer from '../../components/Footer';
 import hmy from '../../../assets/h-my.webp';
-import ms from '../../../assets/ms.jpg';
+import ms from '../../../assets/ms-p.webp';
 import hmx from '../../../assets/h-mx.webp';
 import solarPanel from '../../../assets/solar-panel.jpg';
 import solarRoof from '../../../assets/solar-roof.jpg';
