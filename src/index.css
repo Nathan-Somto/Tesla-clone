@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .btn{
+        @apply py-2 w-[17rem] border-none outline-none block rounded-[25px] cursor-pointer uppercase px-8 text-center text-[0.9rem];
+    }
+    .btn-dark-gray{
+        @apply bg-black/70 text-white;
+    }
+    .btn-light-gray{
+        @apply bg-gray-200 text-gray-700;
+    }
+    .btn-white-outline{
+        @apply bg-transparent border-[1px] border-solid border-[#fff] text-[#fff] transition-all duration-300 ease-in;
+    }
+    .btn-white-outline:hover{
+        @apply bg-[#fff] text-[#000];
+    }
+}
+*{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width:0.4rem !important;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(244, 244, 244, 0.5);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(170, 166, 166, 0.419);
+    outline:0.5px solid rgba(207, 205, 205, 0.836);
+    border-radius:10px;
+}
+.mobileNav li{
+    padding:0.5rem ;
+}
+.mobileNav  li:hover{
+background-color: rgba(125, 124, 124, 0.5);
+border-radius: 8px;
+cursor: pointer;
+}
+.updown{
+    animation-name: updown;
+    animation-duration: 0.3s;
+    animation-timing-function:ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.slide-right{
+    animation-name: slide-right;
+    animation-duration: 0.5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: 1;
+   
+}
+.slide-left{
+    animation-name: slide-left;
+    animation-duration: 0.5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: 1;
+   
+}
+@keyframes slide-left{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@keyframes slide-right{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes updown {
+    0%{
+        transform: translateY(-20%);
+    }
+    50%{
+        transform: translateY(-25%);
+    }
+   
+    80%{
+        transform: translateY(-10%);
+    }
+    90%{
+        transform: translateY(-5%);
+    }
+    100%{
+        transform:  translateY(0%);
+    }
+    
+}
+.desktopNav li:hover{
+    background-color: rgba(157, 154, 154, 0.358);
+    backdrop-filter: blur(8px);
+  border-radius:6px;
+    transition: background-color ease-in 0.3s;
+    padding:0.5rem;
+}
