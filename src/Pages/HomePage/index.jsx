@@ -3,19 +3,24 @@ import Header from '../../components/Header';
 import NavBar from '../../components/Navbar';
 import Section from '../../components/Section';
 import Footer from '../../components/Footer';
-
+import hmy from '../../../assets/h-my.webp';
+import ms from '../../../assets/ms.jpg';
+import hmx from '../../../assets/h-mx.webp';
+import solarPanel from '../../../assets/solar-panel.jpg';
+import solarRoof from '../../../assets/solar-roof.jpg';
+import acc from '../../../assets/accessories.jpg';
 function HomePage() {
   const sectionData=[
     {
       heading:'Model Y',
       para:'',
-      src:'../../../assets/h-my.webp',
+      src:hmy,
       btnText:['Order now','Custom drive']
     },
     {
       heading:'Model S',
       para:'Schedule a Demo Drive',
-      src:'../../../assets/ms.jpg',
+      src:ms,
       underline:true,
       btnText:['Custom order','View Inventory']
 
@@ -23,25 +28,25 @@ function HomePage() {
     ,{
       heading:'Model X',
       para:'Schedule a Demo Drive',
-      src:'../../../assets/h-mx.webp',
+      src:hmx,
       underline:true,
       btnText:['Custom order','View Inventory']
     },
     {
       heading:'Solar Panels',
       para:'Lowest Cost Solar Panels in America',
-      src:'../../../assets/solar-panel.jpg',
+      src:solarPanel,
       underline:false,
       btnText:['Order now','Learn More']
     },{
       heading:'Solar roof',
       para:'Produce clean energy from your roof',
-      src:'../../../assets/solar-roof.jpg',
+      src:solarRoof,
       underline:false,
       btnText:['Order now','Learn More']
     },{
       heading:'Accessories',
-      src:'../../../assets/accessories.jpg',
+      src:acc,
       para:'',
       underline:false,
       btnText:['Shop now']
