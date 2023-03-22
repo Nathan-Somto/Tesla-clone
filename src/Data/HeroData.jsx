@@ -1,5 +1,11 @@
 import dollar from '../../assets/dollar.svg';
 import solarPanel from '../../assets/solar-panel.svg';
+import m3p from '../../../assets/m3-p.jpg';
+import msp from '../../../assets/ms-p.webp';
+import srStorm from '../../../assets/sr-storm.png';
+import mxp from '../../../assets/mx.jpg';
+import myp from '../../../assets/my-p.jpg';
+import solarPanel from '../../../assets/solar-panel.jpg';
 import React from 'react';
 const HeroData ={
     'model 3':[
@@ -7,7 +13,7 @@ const HeroData ={
             heading:'Model 3',
             para:'Schedule a Demo Drive',
             underline: true,
-            src:'../../../assets/m3-p.jpg',
+            src:m3p,
             topStats:['3.1s', '358mi','AWD'],
             btmStats:['0-60mph','Range(EPA est.)','Dual Motor'],
             Cta:[{text:'Order now',style:'btn-white-outline'}]
@@ -18,7 +24,7 @@ const HeroData ={
             heading:'Model S',
             para:'Plaid',
             underline: false,
-            src:'../../../assets/ms-p.webp',
+            src:msp,
             topStats:['396mi', '199s','200mph' ,'1,020hp'],
             btmStats:['Range (EPA est.)','0-60 mph*','Top Speed*','peak power'],
             Cta:[{text:'View Inventory',style:'btn-white-outline'},{text:'Order now',style:'btn-dark-gray'}]
@@ -29,7 +35,7 @@ const HeroData ={
             heading:'Solar Roof',
             para:'',
             underline: false,
-            src:'../../../assets/sr-storm.png',
+            src:srStorm,
             topStats:[ React.createElement('img', { src: solarPanel, alt: 'solar Panel' }), '25-Year','24/7'],
             btmStats:['Beautiful \n Solar','Tile\nWarranty','Outage\nProtection'],
             Cta:[{text:'Order now',style:'btn-white-outline'}]
@@ -40,7 +46,7 @@ const HeroData ={
             heading:'Model X',
             para:'Plaid',
             underline: false,
-            src:'../../../assets/mx.jpg',
+            src:mxp,
             topStats:['333mi', '2.5s','9.9s','1020hp'],
             btmStats:['Range (EPA est.)','0-60 mph*','1/4 Mile','peak power'],
             Cta:[{text:'View Inventory',style:'btn-white-outline'},{text:'Order now',style:'btn-dark-gray'}]
@@ -53,7 +59,7 @@ const HeroData ={
             heading:'Model Y',
             para:'Schedule a Demo Drive',
             underline:true,
-            src:'../../../assets/my-p.jpg',
+            src:myp,
             topStats:['76cuft', '330mi','AWD'],
             btmStats:['cargo Space', 'Range(EPA est.)', 'Dual Motor']
             , Cta:[{text:'Order now',style:'btn-white-outline'}]
@@ -64,7 +70,7 @@ const HeroData ={
             para:'',
             underline:false,
             dark:true,
-            src:'../../../assets/solar-panel.jpg',
+            src:solarPanel,
             topStats:[ React.createElement('img', { src: solarPanel, alt: 'solar Panel' }),
             React.createElement('img', { src: dollar, alt: 'dollar sign' }),'24/7'],
             btmStats:['convert sunlight to energy', 'guaranteed lowest price for solar', 'Energy monitoring']
